@@ -88,15 +88,131 @@ textarea {
    Author's custom styles
    ==========================================================================
    ========================================================================== */
+ html {
+   font-size: 16px;
+ }
 
+ ul,
+ ol {
+   list-style-type: none;
+ }
 
+ a {
+   text-decoration: none;
+ }
 
+ .content-wrapper {
+   width: 90%;
+   margin: 20px 0;
+ }
 
+body {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+}
+/* ---------- Base Header Footer Styles ---------- */
 
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* ---------- Header Styles ---------- */
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header img {
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  margin: 0 15px;
+}
+
+/* ---------- homepage styles ---------- */
+
+.greeting {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.prof-skills {
+  display: flex;
+  justify-content: center;
+}
+
+.prof-skills .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.prof-skills article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 70%;
+}
+
+.work-examples {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.work-examples article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.work-examples figure {
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
