@@ -107,7 +107,7 @@ textarea {
 
  .content-wrapper {
    width: 80%;
-   margin: 20px 0;
+   margin: 20px auto;
  }
 
 /* ---------- Base Header Footer Styles ---------- */
@@ -202,6 +202,14 @@ header nav ul li a {
   align-items: center;
   flex-flow: row wrap;
 }
+
+/* ---------- Homepage styles ---------- */
+
+.message-header {
+  display: flex;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
